@@ -1,18 +1,18 @@
 const about = {
   // all the properties are optional - can be left empty or deleted
   // each element in the description array is a paragraph
-  name: 'John Doe',
+  name: 'Ike Ofoegbu',
   role: 'Software Engineer',
-  company: 'Acme Labs',
+  // company: 'Acme Labs',
   description: [
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
+    "I specialize in full-stack web development with an emphasis on frontend engineering. I graduated from UCLA with a B.S. in Cognitive Science and a Specialization in Computing. In school, I learned about the applications of Computer Science within the study of intelligent systems, both real and artificial. Since then, I've strived to use software as a medium for solving more general problems.",
   ],
-  resume: 'https://example.com',
+  // resume: 'https://example.com',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://linkedin.com/in/ike-ofoegbu',
+    github: 'https://github.com/magic-ike',
   },
-  greetingEmoji: '👋',
+  greetingEmoji: '👋🏽',
 }
 
 const projects = [
@@ -20,67 +20,111 @@ const projects = [
   // if there are no projects, Projects section won't show up
   // each element in the description array is a paragraph
   {
-    thumbnail: 'images/placeholder-image.jpeg',
-    name: 'Project 1',
+    thumbnail: 'images/iodev.io-placeholder-image.png',
+    name: 'Express TS Boilerplate',
     description: [
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'A complete template (for developers) for building RESTful API services with Express and TypeScript',
     ],
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    stack: ['TypeScript', 'Node.js', 'Express'],
+    sourceCode: 'https://github.com/magic-ike/express-ts-boilerplate',
   },
   {
-    thumbnail: 'images/placeholder-image.jpeg',
-    name: 'Project 2',
+    thumbnail: 'images/data-card-for-spotify-preview.png',
+    name: 'Data Card for Spotify',
     description: [
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'A web service for dynamically generating embeddable images that compile Spotify activity',
     ],
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    stack: [
+      'TypeScript',
+      'Node.js',
+      'Express',
+      'Spotify Web API',
+      'MongoDB',
+      'Redis',
+      'jQuery',
+    ],
+    sourceCode: 'https://github.com/magic-ike/spotify-data-card',
+    livePreview: 'https://www.data-card-for-spotify.com',
   },
   {
-    thumbnail: 'images/placeholder-image.jpeg',
-    name: 'Project 3',
+    thumbnail: 'images/leanfolio-preview.png',
+    name: 'Leanfolio',
     description: [
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'A minimalist portfolio template for developers. Used to build this site',
     ],
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    stack: ['React', 'Next.js'],
+    sourceCode: 'https://github.com/magic-ike/leanfolio',
+    livePreview: 'https://leanfolio.vercel.app',
   },
   {
-    thumbnail: 'images/placeholder-image.jpeg',
-    name: 'Project 4',
+    thumbnail:
+      'https://raw.githubusercontent.com/magic-ike/atalog-landing-page/master/docs/atalog-site-preview.png',
+    name: 'Atalog',
     description: [
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
+      'A closed-source social networking and messaging application for iOS. Released under the (now defunct) Atalog Inc.',
     ],
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+    stack: [
+      'Swift',
+      'Firebase Auth',
+      'Cloud Firestore',
+      'Cloud Storage',
+      'OneSignal',
+    ],
+    livePreview: 'https://atalog.co',
+  },
+  {
+    thumbnail:
+      'https://raw.githubusercontent.com/magic-ike/regression-neural-network/master/br-simple-10000-0.png',
+    name: 'Regression Neural Network',
+    description: [
+      "A script for visualizing a feedforward neural network's understanding of a math function under different parameters",
+    ],
+    stack: ['MATLAB'],
+    sourceCode: 'https://github.com/magic-ike/regression-neural-network',
+  },
+  {
+    thumbnail:
+      'https://raw.githubusercontent.com/magic-ike/laser-ship-links/master/assets/images/laser-ship-app-icon.webp',
+    name: 'Laser Ship',
+    description: [
+      'A closed-source vertically scrolling shooter mobile game for iOS and Android',
+    ],
+    stack: ['C#', 'Unity'],
+    livePreview: 'https://magic-ike.github.io/laser-ship-links/',
   },
 ]
 
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
   'JavaScript',
   'TypeScript',
+  'PHP',
+  'HTML',
+  'CSS',
+  'Swift',
+  'C++',
+  'jQuery',
   'React',
-  'Redux',
-  'SASS',
-  'Material UI',
+  'Next.js',
+  'Angular',
+  'Node.js',
+  'Express',
+  'Redis',
+  'MongoDB',
+  'MySQL',
+  'Firebase',
   'Git',
-  'CI/CD',
+  'Mercurial',
+  'ESLint',
   'Jest',
-  'Enzyme',
+  'Heroku',
+  'Vercel',
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johndoe@mail.com',
+  email: 'ikeofoegbu99@gmail.com',
 }
 
 export { about, projects, skills, contact }
